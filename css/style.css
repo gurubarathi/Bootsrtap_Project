@@ -22,7 +22,7 @@
 .uline{
 	position:relative;
 }
-
+@media(min-width:340px){
 .uline::after{
 	content: "";
     position: absolute;
@@ -30,11 +30,40 @@
     height: 2px;
     background: #eb5d1e;
 	display:block;
-	left:47%;
-	 bottom:-45%;
-	
-	
-}
+	left:0;
+	 bottom:;
+	 top:60px;
+	 right:0;
+	 margin:auto;
+}}
+@media(min-width:768px){
+.uline::after{
+	content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #eb5d1e;
+	display:block;
+	left:0;
+	 bottom:;
+	 top:50px;
+	 right:0;
+	 margin:auto;
+}}
+@media(min-width:1024px){
+.uline::after{
+	content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #eb5d1e;
+	display:block;
+	left:0;
+	 bottom:;
+	 top:50px;
+	 right:0;
+	 margin:auto;
+}}
 .ani{
 	animation: up 2s infinite;
 	position:relative;
@@ -250,25 +279,18 @@
 	}
 }
 @media(min-width:768px){
-	#fbelow{
-		text-align:center;
-	}
-	#fbelow1{
-		text-align:center;
-	}
-	.fds{
-		text-align:center;
-	}
 }
-@media(min-width:1024px){
-	#fbelow1{
-	  text-align:right;	
-	}
-	#fbelow{
-		text-align:left;
-	}
 	
+@media(min-width:1024px){
+	.jus{
+		display:flex;
+		justify-content:space-between;
+	}
 }
+
+
+
+
 details > summary{
 	list-style-type:none;
 }
