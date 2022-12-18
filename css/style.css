@@ -32,7 +32,7 @@
 	display:block;
 	left:0;
 	 bottom:;
-	 top:60px;
+	 top:40px;
 	 right:0;
 	 margin:auto;
 }}
@@ -224,7 +224,7 @@
 	{
     position:absolute;
 	bottom: 29px;
-    right: 155px;
+    right: 100px;
 	color:#fff;
 	}
 }
